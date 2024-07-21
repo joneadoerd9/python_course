@@ -11,7 +11,7 @@ If you are using PowerShell or Git Bash use `$HOME` instead of `%USERPROFILE%`
 3. Extract and move files to `$HOME\.pyenv\` or use this commend:
 
 ```pwsh
-  $zipFile = "C:\Users\Max\Desktop\AI Leacture\python_setup\pyenv-win-master.zip"
+  $zipFile = ".\pyenv-win-master.zip"
   $destination = "$HOME\.pyenv\"
   Expand-Archive -Path $zipFile -DestinationPath $destination
 ```
